@@ -62,12 +62,13 @@ body::-webkit-scrollbar-track {
 
 @media only screen and (max-width: 650px) {
     .calculator {
-        position: absolute;
+        position: fixed;
         width: 100vw;
         height: 100vh;
         overflow: hidden;
         top: 0;left: 0;right: 0;
         z-index: 10000;
+        
     }
     body {
         display: block;
