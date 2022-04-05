@@ -38,21 +38,22 @@ body::-webkit-scrollbar-track {
     font-weight: bold;
     transition: 150ms;
     z-index: 1000;
+    cursor: pointer;
 }
 
-.calcbutton:active {
-    background-color:cadetblue;
-    border-style:ridge;
+.calcbutton:hover, .calcbutton:active {
+    background-color:rgb(175, 106, 22);
 }
 
 
 #calcinput {
     grid-column: 1 / span 3;
     display: grid;
+    cursor: unset;
 }
 
 #calcinput:hover {
-    background-color: rgb(217, 132, 29);
+    background-color: rgb(208, 126, 27);
 }
 
 #clear {
