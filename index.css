@@ -63,7 +63,7 @@ body::-webkit-scrollbar-track {
     .calculator {
         position: fixed;
         width: 100vw;
-        height: 90%;
+        height: 99%;
         overflow: hidden;
         top: 0;left: 0;right: 0;
         z-index: 10000;
