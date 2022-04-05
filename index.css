@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(41, 41, 41);
 }
 
 body::-webkit-scrollbar-track {
@@ -14,7 +15,6 @@ body::-webkit-scrollbar-track {
 
 .calculator {
     height: 35em;
-    max-height: 100%;
     width: 25em;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
@@ -63,9 +63,9 @@ body::-webkit-scrollbar-track {
 @media only screen and (max-width: 650px) {
     .calculator {
         position: fixed;
+        overflow: hidden;
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
         top: 0;left: 0;right: 0;
         z-index: 10000;
         
